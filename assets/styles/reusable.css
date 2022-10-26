@@ -1,0 +1,56 @@
+/** Reusable Class **/
+
+.container {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.container-left {
+    padding-left: 5rem;
+}
+
+@media screen and (max-width: 900px) {
+    .container {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    
+    .container-left {
+        padding-left: 1.5rem;
+    }
+}
+
+.d-none {
+    display: none !important;
+}
+
+
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.raleway {
+    font-family: 'Raleway', sans-serif;
+}
+
+.volkhov {
+    font-family: 'Volkhov', serif;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(-2.3rem);
+    }
+    50% {
+        opacity: 0.1;
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0rem);
+    }
+}
+
+.fade-in {
+    animation: fadeInAnimation 1000ms forwards !important;
+}

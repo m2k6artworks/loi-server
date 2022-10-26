@@ -1,0 +1,22 @@
+[
+    {
+        "image": "./assets/images/illustration/career-values/stay-creative.webp",
+        "title": "Stay Creative",
+        "description": "We believe that creativity and innovation is the key to becoming a legend beyond what we dream."
+    },
+    {
+        "image": "./assets/images/illustration/career-values/collaboratif.webp",
+        "title": "Stay Productive & Collaboratif",
+        "description": "We learn from each other here to collaborate and share knowledge for a better future."
+    },
+    {
+        "image": "./assets/images/illustration/career-values/humble.webp",
+        "title": "Stay Humble & Fun",
+        "description": "We support a friendly and fun work culture to make us feel at home in achieving our dreams together."
+    },
+    {
+        "image": "./assets/images/illustration/career-values/brainstorming.webp",
+        "title": "Stay Commit & Adapt",
+        "description": "We believe that keeping commit and adapt  reminds us of who we are and makes us."
+    }
+]

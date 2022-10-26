@@ -1,0 +1,32 @@
+[
+    {
+        "image": "./assets/images/event/malang.png",
+        "name": "Malang",
+        "year": "2022"
+    },
+    {
+        "image": "./assets/images/event/malang 2.png",
+        "name": "Surabaya",
+        "year": "2022"
+    },
+    {
+        "image": "./assets/images/event/event (3).webp",
+        "name": "Bali",
+        "year": "2021"
+    },
+    {
+        "image": "./assets/images/event/yogya.png",
+        "name": "Yogyakarta,",
+        "year": "2020"
+    },
+    {
+        "image": "./assets/images/event/event (1).webp",
+        "name": "Malang",
+        "year": "2019"
+    },
+    {
+        "image": "./assets/images/event/soon.png",
+        "name": "Lioners",
+        "year": "Next Generation"
+    }
+]

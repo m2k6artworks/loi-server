@@ -1,0 +1,22 @@
+[
+    [
+        {
+            "image": "./assets/images/office/Cafe Informatika.webp",
+            "title": "Cofee Break"
+        },
+        {
+            "image": "./assets/images/office/Playground.webp",
+            "title": "Relaxed Place"
+        }
+    ],
+    [
+        {
+            "image": "./assets/images/office/AR-VR Studio.webp",
+            "title": "Metaverse Studio"
+        },
+        {
+            "image": "./assets/images/office/Smart Library.webp",
+            "title": "Digital Library"
+        }
+    ]
+]
