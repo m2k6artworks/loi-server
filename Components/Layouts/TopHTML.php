@@ -27,8 +27,8 @@
     <link rel="shortcut icon" href="./assets/icons/lionofinformatics.ico" type="image/ico" alt="lionofinformatics">
     <link rel="apple-touch-icon" href="./assets/icons/lionofinformatics.ico">
     
-    <link rel="stylesheet" href="./assets/styles/style.css?ver=1.1">
-    <link rel="stylesheet" href="./assets/styles/reusable.css?ver=1.1">
+    <link rel="stylesheet" href="./assets/styles/style.css?ver=1.2">
+    <link rel="stylesheet" href="./assets/styles/reusable.css?ver=1.2">
     <title>Careers | Lion of Informatics</title>
 </head>
 

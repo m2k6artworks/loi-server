@@ -38,6 +38,16 @@ function setActiveTab(targetId, clickedElement) {
             }
         }
     }
+}
 
+function togglePlayAudio(buttnElement) {
+    const bgAudioElement = document.getElementById('bg-audio');
 
+    if (bgAudioElement.paused) {
+        bgAudioElement.play();
+        buttnElement.innerHTML = '<i class="zmdi zmdi-pause"></i>';
+    } else {
+        bgAudioElement.pause();
+        buttnElement.innerHTML = '<i class="zmdi zmdi-play"></i>';
+    }
 }

@@ -7,11 +7,12 @@
 <?php require_once './Components/Pages/Index/TeamAndPlaceSection.php' ?>
 <?php require_once './Components/Pages/Index/DiscoverSection.php' ?>
 <?php require_once './Components/Pages/Index/EventSection.php' ?>
+<?php require_once './Components/Pages/Index/AudioComponent.php' ?>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdn.jsdelivr.net/npm/tsparticles/tsparticles.bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/jquery-particles"></script>
-<script src="./assets/js/script.js?ver=1.1"></script>
+<script src="./assets/js/script.js?ver=1.2"></script>
 <script>
     var ok = $("#particles-js")
         .particles()
