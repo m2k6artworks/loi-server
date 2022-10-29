@@ -9,6 +9,6 @@
         </div>
     </div>
     <div class="bg-hero">
-        <img src="./assets/images/office/Meeting Room.webp" alt="Lion of Informatics">
+        <img loading="lazy" src="./assets/images/office/Meeting Room.webp" alt="Lion of Informatics">
     </div>
 </section>

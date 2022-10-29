@@ -1,13 +1,18 @@
 {
     "employee": [{
-            "image": "./assets/images/event/malang.png",
+            "image": "./assets/images/event/malang.webp",
             "name": "Malang",
             "year": "2022"
         },
         {
-            "image": "./assets/images/event/malang 2.png",
+            "image": "./assets/images/event/malang 2.webp",
             "name": "Surabaya",
             "year": "2022"
+        },
+        {
+            "image": "./assets/images/event/jogja21.webp",
+            "name": "Yogyakarta,",
+            "year": "2021"
         },
         {
             "image": "./assets/images/event/event (3).webp",
@@ -15,12 +20,12 @@
             "year": "2021"
         },
         {
-            "image": "./assets/images/event/yogya.png",
+            "image": "./assets/images/event/yogya.webp",
             "name": "Yogyakarta,",
             "year": "2020"
         },
         {
-            "image": "./assets/images/event/soon.png",
+            "image": "./assets/images/event/soon.webp",
             "name": "Lioners",
             "year": "Next Generation"
         }
@@ -31,7 +36,7 @@
             "year": "2019"
         },
         {
-            "image": "./assets/images/event/soon.png",
+            "image": "./assets/images/event/soon.webp",
             "name": "Lioners",
             "year": "Next Generation"
         }

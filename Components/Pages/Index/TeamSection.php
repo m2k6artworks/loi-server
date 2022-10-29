@@ -4,7 +4,7 @@
         </div>
         <div class="person-card">
             <div class="image">
-                <img src="./assets/images/logo/lioners.webp" alt="Lion of Informatics">
+                <img loading="lazy" src="./assets/images/logo/lioners.webp" alt="Lion of Informatics">
             </div>
             <div class="desc raleway">
                 <h3>Lion of Informatics</h3>

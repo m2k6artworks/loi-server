@@ -17,7 +17,7 @@ $events = json_decode(file_get_contents('assets/data/events.json'), true);
             <?php foreach($events['employee'] as $event) { ?>
                 <div class="card-enggagement">
                     <div class="image">
-                        <img src="<?= $event['image'] ?>" alt="<?= $event['name'] ?>">
+                        <img loading="lazy" src="<?= $event['image'] ?>" alt="<?= $event['name'] ?>">
                     </div>
                     <div class="desc poppins">
                         <span class="title"><?= $event['name'] ?></span>
@@ -30,7 +30,7 @@ $events = json_decode(file_get_contents('assets/data/events.json'), true);
             <?php foreach($events['social'] as $event) { ?>
                 <div class="card-enggagement">
                     <div class="image">
-                        <img src="<?= $event['image'] ?>" alt="<?= $event['name'] ?>">
+                        <img loading="lazy" src="<?= $event['image'] ?>" alt="<?= $event['name'] ?>">
                     </div>
                     <div class="desc poppins">
                         <span class="title"><?= $event['name'] ?></span>

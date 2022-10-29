@@ -22,13 +22,13 @@
     <!-- Icon -->
     <meta name="msapplication-TileColor" content="#FFFFF">
     <meta name="msapplication-config" content="./assets/icons/lionofinformatics.ico">
-    <link rel="shortcut icon" href="./assets/icons/lionofinformatics.jpeg" type="image/x-icon" alt="lionofinformatics">
+    <link rel="shortcut icon" href="./assets/icons/lionofinformatics.ico" type="image/x-icon" alt="lionofinformatics">
     <link rel="manifest" href="./assets/icons/lionofinformatics.ico">
     <link rel="shortcut icon" href="./assets/icons/lionofinformatics.ico" type="image/ico" alt="lionofinformatics">
     <link rel="apple-touch-icon" href="./assets/icons/lionofinformatics.ico">
     
-    <link rel="stylesheet" href="./assets/styles/style.css?ver=1.2">
-    <link rel="stylesheet" href="./assets/styles/reusable.css?ver=1.2">
+    <link rel="stylesheet" href="./assets/styles/style.css?ver=1.3">
+    <link rel="stylesheet" href="./assets/styles/reusable.css?ver=1.3">
     <title>Careers | Lion of Informatics</title>
 </head>
 

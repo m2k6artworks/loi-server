@@ -40,14 +40,20 @@ function setActiveTab(targetId, clickedElement) {
     }
 }
 
-function togglePlayAudio(buttnElement) {
+function togglePlayAudio(buttonElement, loadedAutoMaticcaly = false) {
     const bgAudioElement = document.getElementById('bg-audio');
 
-    if (bgAudioElement.paused) {
+    if (loadedAutoMaticcaly && buttonElement.getAttribute('everClicked') == 'false') {
         bgAudioElement.play();
-        buttnElement.innerHTML = '<i class="zmdi zmdi-pause"></i>';
-    } else {
-        bgAudioElement.pause();
-        buttnElement.innerHTML = '<i class="zmdi zmdi-play"></i>';
+        buttonElement.innerHTML = '<i class="zmdi zmdi-pause"></i>';
+        buttonElement.setAttribute('everClicked', 'true');
+    } else if (loadedAutoMaticcaly == false && buttonElement.getAttribute('everClicked') == 'true') {
+        if (bgAudioElement.paused) {
+            bgAudioElement.play();
+            buttonElement.innerHTML = '<i class="zmdi zmdi-pause"></i>';
+        } else {
+            bgAudioElement.pause();
+            buttonElement.innerHTML = '<i class="zmdi zmdi-play"></i>';
+        }
     }
 }

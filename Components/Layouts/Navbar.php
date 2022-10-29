@@ -1,12 +1,9 @@
 <nav class="container">
-    <div class="logo">
-        <img src="./assets/images/logo/lion-of-informatics.webp" alt="Lion of Informatics">
-        <a href="" class="poppins">Careers</a>
-    </div>
+    <a href="/" class="logo">
+        <img loading="lazy" src="./assets/images/logo/lion-of-informatics.webp" alt="Lion of Informatics">
+        <span class="poppins">Careers</span>
+    </a>
     <ul class="nav-links poppins">
-        <!-- <li>
-            <a href="" class="flag"><img src="./../../assets/images/english-flag.png" alt=""></a>
-        </li> -->
         <li>
             <a href="https://lionofinformatics.net/" target="_blank">About</a>
         </li>

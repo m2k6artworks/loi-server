@@ -10,7 +10,7 @@ $values = json_decode(file_get_contents("assets/data/values.json"), true);
     <div class="values">
         <?php foreach ($values as $value) { ?>
             <div class="value raleway">
-                <img src="<?= $value['image'] ?>" alt="<?= $value['title'] ?>">
+                <img loading="lazy" src="<?= $value['image'] ?>" alt="<?= $value['title'] ?>">
                 <h4><?= $value['title'] ?></h4>
                 <p><?= $value['description'] ?></p>
             </div>
