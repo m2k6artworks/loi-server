@@ -1,6 +1,6 @@
 <section id="team">
     <div class="inner-team">
-        <div class="teams" id="particles-js">
+        <div class="teams" id="tsparticles">
         </div>
         <div class="person-card">
             <div class="image">

@@ -20,8 +20,7 @@
             "polygon": {
                 "nb_sides": 5
             },
-            "image": [
-                {
+            "image": [{
                     "src": "./assets/images/teams/web-tomy.webp",
                     "height": 20,
                     "width": 20
