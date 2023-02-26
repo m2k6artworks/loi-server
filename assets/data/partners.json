@@ -1,0 +1,26 @@
+{
+    "title": "Mitra Kami",
+    "description": "Kami menghadirkan berita dan artikel menarik tentang berbagai adat budaya nusantara.",
+    "images": [
+        {
+            "url": "./assets/images/logo/kkp.png",
+            "caption": "kkp"
+        },
+        {
+            "url": "./assets/images/logo/infinity.png",
+            "caption": "infinity"
+        },
+        {
+            "url": "./assets/images/logo/smartfisher.png",
+            "caption": "smartfisher"
+        },
+        {
+            "url": "./assets/images/logo/ditapenyu.png",
+            "caption": "ditapenyu"
+        },
+        {
+            "url": "./assets/images/logo/loi.png",
+            "caption": "loi"
+        }
+    ]
+}

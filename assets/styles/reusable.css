@@ -1,4 +1,8 @@
 /** Reusable Class **/
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
 
 .container {
     padding-left: 5rem;
@@ -29,6 +33,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.inter {
+    font-family: 'Inter', arial;
+}
+
 .raleway {
     font-family: 'Raleway', sans-serif;
 }
@@ -53,4 +61,126 @@
 
 .fade-in {
     animation: fadeInAnimation 1000ms forwards !important;
+}
+
+.proper-images {
+    object-fit: contain;
+    object-position: center;
+}
+
+.nav-logo-small {
+    width: auto !important;
+    height: 3rem !important;
+}
+
+.fs-16px {
+    font-size: 1rem !important;
+}
+
+.fs-15px {
+    font-size: .938rem !important;
+}
+
+.fs-14px {
+    font-size: .875rem !important;
+}
+
+.fs-13px {
+    font-size: .813rem !important;
+}
+
+.fs-12px {
+    font-size: .75rem !important;
+}
+
+.fs-11px {
+    font-size: .68rem !important;
+}
+
+.fs-10px {
+    font-size: .625rem !important;
+}
+
+.underline-none {
+    text-decoration: none;
+}
+
+.text-dark-blue {
+    color: #2A579A;
+}
+
+.text-grey {
+    color: #495057;
+}
+
+.bg-dark-blue {
+    background-color: #2A579A;
+}
+
+.bg-grey {
+    background-color: #7F7F7F;
+}
+
+.w-100vw {
+    width: 100vw !important;
+}
+
+.h-100vh {
+    height: 100vh !important;
+}
+
+.btn-outline-primary {
+    --bs-btn-color: #23467C !important;
+    --bs-btn-border-color: #23467C !important;
+    --bs-btn-hover-bg: #23467C !important;
+    --bs-btn-hover-border-color: #23467C !important;
+    --bs-btn-active-bg: #23467C !important;
+    --bs-btn-active-border-color: #23467C !important;
+    --bs-btn-disabled-color: #23467C !important;
+    --bs-btn-disabled-border-color: #23467C !important;
+}
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #23467C !important;
+    --bs-btn-border-color: #23467C !important;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #0b5ed7;
+    --bs-btn-hover-border-color: #0a58ca;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #0a58ca;
+    --bs-btn-active-border-color: #0a53be;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #23467C !important;
+    --bs-btn-disabled-border-color: #23467C !important;
+}
+
+.obj-fit-cover {
+    object-fit: cover !important;
+}
+
+.obj-position-center {
+    object-position: center !important;
+}
+
+.border-none {
+    border: none !important;
+}
+
+.text-light-blue {
+    color: #37A3DA !important;
+}
+
+.text-underline-none {
+    text-decoration: unset !important;
+}
+
+.text-light-grey {
+    color: #828282 !important;
+}
+
+.right-0 {
+    right: 0 !important;
 }

@@ -1,0 +1,42 @@
+{
+    "title": "Tentang Kami",
+    "description": "Kami menghadirkan berbagai layanan yang dapat membantu efektifitas",
+    "visions": [
+        {
+            "description": "Menciptakan ekosistem usaha berbasis syariah, membuat jaringan pelaku usaha Muslim yang berintegritas, maju, dan modern, serta membuat dan mempersiapkan generasi Muslim yang kuat secara ekonomi dan berakhlak mulia."
+        }
+    ],
+    "missions": [
+        {
+            "description": "Provide optimal solutions to partners in overcoming various problems in the world of information technology."
+        },
+        {
+            "description": "Prioritizing professionalism, individual and team capabilities in producing superior products."
+        },
+        {
+            "description": "Providing the best contribution through information and communication technology as well as community service"
+        }
+    ],
+    "benefits": [
+        {
+            "image": "./assets/images/illustration/career-benefit/growth.svg",
+            "title": "Growth Up",
+            "description": "A stock option is a label that refers to a compensation contract between an employer and an employee that contains several characteristics of a financial option"
+        },
+        {
+            "image":"./assets/images/illustration/career-benefit/thumb.svg",
+            "title": "Stay Productive & Collaboratif",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet,"
+        },
+        {
+            "image":"./assets/images/illustration/career-benefit/happy.svg",
+            "title": "Stay Humble & Fun",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet,"
+        },
+        {
+            "image": "./assets/images/illustration/career-benefit/thinking.svg",
+            "title": "Stay Commit & Adapt",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet,"
+        }
+    ]
+}

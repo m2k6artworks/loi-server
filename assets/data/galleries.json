@@ -1,0 +1,18 @@
+{
+    "title": "Foto Kegiatan",
+    "description": "Kami menghadirkan berita dan artikel menarik tentang berbagai adat budaya nusantara.",
+    "images": [
+        {
+            "url": "./assets/images/gallery/gallery1.png",
+            "caption": "pasar ikan"
+        },
+        {
+            "url": "./assets/images/gallery/gallery2.png",
+            "caption": "apel pagi"
+        },
+        {
+            "url": "./assets/images/gallery/gallery3.png",
+            "caption": "anak-anak lari"
+        }
+    ]
+}

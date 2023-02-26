@@ -1,0 +1,34 @@
+{
+    "title": "Berita dan Artikel",
+    "description": "Kami menghadirkan berita dan artikel menarik tentang berbagai adat budaya nusantara.",
+    "articles": [
+        {
+            "image_url": "./assets/images/news/news1.png",
+            "image_caption": "anak-anak lari",
+            "title": "Program SUPERINTENSIF persiapan UTBK SNBT 2023 - Discount Spesial 12.12",
+            "description": "Discount Spesial 12.12 Program SUPERINTENSIF persiapan UTBK SNBT 2023 BRITS Indonesia Bimbingan Persiapan Masuk Perguruan Tinggi 2023",
+            "slug": "#"
+        },
+        {
+            "image_url": "./assets/images/news/news1.png",
+            "image_caption": "anak-anak lari",
+            "title": "Program SUPERINTENSIF persiapan UTBK SNBT 2023 - Discount Spesial 12.12",
+            "description": "Discount Spesial 12.12 Program SUPERINTENSIF persiapan UTBK SNBT 2023 BRITS Indonesia Bimbingan Persiapan Masuk Perguruan Tinggi 2023",
+            "slug": "#"
+        },
+        {
+            "image_url": "./assets/images/news/news1.png",
+            "image_caption": "anak-anak lari",
+            "title": "Program SUPERINTENSIF persiapan UTBK SNBT 2023 - Discount Spesial 12.12",
+            "description": "Discount Spesial 12.12 Program SUPERINTENSIF persiapan UTBK SNBT 2023 BRITS Indonesia Bimbingan Persiapan Masuk Perguruan Tinggi 2023",
+            "slug": "#"
+        },
+        {
+            "image_url": "./assets/images/news/news1.png",
+            "image_caption": "anak-anak lari",
+            "title": "Program SUPERINTENSIF persiapan UTBK SNBT 2023 - Discount Spesial 12.12",
+            "description": "Discount Spesial 12.12 Program SUPERINTENSIF persiapan UTBK SNBT 2023 BRITS Indonesia Bimbingan Persiapan Masuk Perguruan Tinggi 2023",
+            "slug": "#"
+        }
+    ]
+}

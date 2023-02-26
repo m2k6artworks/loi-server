@@ -1,0 +1,14 @@
+{
+    "title": "Platform Informasi dan Layanan Satu Pintu <span class='text-dark-blue'>BPPP Bitung",
+    "description": "Situs resmi dari BPPP Bitung dalam menyediakan berbagai layanan serta sebagai media informasi resmi untuk mewujudkan layanan masyarakat yang efektif.",
+    "buttons": [{
+        "title": "Data Statistik",
+        "url": "#"
+        },
+        {
+        "title": "Layanan Publik",
+        "url": "#"
+        }
+    ],
+    "youtube_url": "https://www.youtube.com/embed/kfPVOjpMJLA?controls=0"
+}

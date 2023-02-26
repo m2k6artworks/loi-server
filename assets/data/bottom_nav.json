@@ -1,0 +1,108 @@
+{
+    "title": "Lion of Informatics",
+    "description": "We are is a startup that aims to develop a technology ecosystem in Indonesia. We are provides various products & services for the needs of companies.",
+    "social_media": [
+        {
+            "icon": "fab fa-youtube",
+            "url": "#"
+        },
+        {
+            "icon": "fab fa-twitter",
+            "url": "#"
+        },
+        {
+            "icon": "fab fa-facebook",
+            "url": "#"
+        },
+        {
+            "icon": "fab fa-instagram",
+            "url": "#"
+        },
+        {
+            "icon": "fab fa-discord",
+            "url": "#"
+        },
+        {
+            "icon": "fab fa-telegram",
+            "url": "#"
+        }
+    ],
+    "menus": [
+        {
+            "title": "Resources",
+            "sub_menus": [
+                {
+                    "title": "Investor",
+                    "url": "#"
+                },
+                {
+                    "title": "Vendor",
+                    "url": "#"
+                },
+                {
+                    "title": "Partnership",
+                    "url": "#"
+                },
+                {
+                    "title": "Sponsorship",
+                    "url": "#"
+                }
+            ]
+        },
+        {
+            "title": "Program",
+            "sub_menus": [
+                {
+                    "title": "Internship",
+                    "url": "#"
+                },
+                {
+                    "title": "Event",
+                    "url": "#"
+                },
+                {
+                    "title": "Open Source",
+                    "url": "#"
+                },
+                {
+                    "title": "Program",
+                    "url": "#"
+                }
+            ]
+        },
+        {
+            "title": "Support",
+            "sub_menus": [
+                {
+                    "title": "Help Center",
+                    "url": "#"
+                },
+                {
+                    "title": "Contact Us",
+                    "url": "#"
+                }
+            ]
+        },
+        {
+            "title": "Legal",
+            "sub_menus": [
+                {
+                    "title": "Copyright",
+                    "url": "#"
+                },
+                {
+                    "title": "Disclaimer",
+                    "url": "#"
+                },
+                {
+                    "title": "Privacy & Policy",
+                    "url": "#"
+                },
+                {
+                    "title": "Terms & Condition",
+                    "url": "#"
+                }
+            ]
+        }
+    ]
+}

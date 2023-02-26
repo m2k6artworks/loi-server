@@ -29,7 +29,26 @@
     
     <link rel="stylesheet" href="./assets/styles/style.css?ver=1.3">
     <link rel="stylesheet" href="./assets/styles/reusable.css?ver=1.3">
-    <title>Careers | Lion of Informatics</title>
+
+    <link rel="stylesheet" href="./assets/styles/bootstrap-v5.2.3/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/styles/swiperjs-v9.0.5/swiper-bundle.min.css">
+    <script src="./assets/js/swiperjs-v9.0.5/swiper-bundle.min.js"></script>
+
+    <title>Server</title>
+    <script>
+        async function getData(url) {
+            try {
+                let res = await fetch(url);
+                return await res.json();
+            } catch (error) {
+                console.log(error);
+            }
+        }
+    </script>
 </head>
 
 <body>
+    <div id="backToTop" class="position-fixed right-0" style="right: 1.5vw;bottom: 12vh;z-index:10;">
+        <button class="btn btn-lg text-dark-blue" onclick="goTop()"><i class="fas fa-chevron-up"></i></button>
+    </div>

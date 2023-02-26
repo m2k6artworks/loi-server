@@ -5,7 +5,7 @@
 }
 
 
-/** Navbar **/
+/** Navbar 
 
 nav {
     display: flex;
@@ -84,8 +84,9 @@ nav .hamburger {
     nav {
         height: 11vh;
     }
+    
     nav .hamburger {
-        width: 2rem;
+        width: 3rem;
         height: 1.1rem;
         display: flex;
         flex-direction: column;
@@ -97,6 +98,7 @@ nav .hamburger {
         cursor: pointer;
         transition: all 300ms ease;
     }
+
     nav .hamburger span {
         width: 100%;
         height: 3px;
@@ -128,7 +130,7 @@ nav .hamburger {
         padding-top: 11vh;
         position: fixed;
         top: 0;
-        left: -75vw;
+        left: 100vw;
         height: 100vh;
         box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.35);
         width: 75%;
@@ -170,214 +172,58 @@ nav .hamburger {
         display: none;
     }
 }
+**/
 
 section#hero {
-    height: 88vh;
-    display: flex;
-    margin-top: 12vh;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    gap: 5rem;
-}
-
-section#hero .text-hero {
-    flex: .525;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-right: 3rem;
-}
-
-section#hero .text-hero h1 {
-    color: #2A579A;
-    font-weight: 600;
-    font-size: 2rem;
-    line-height: 2.7rem;
-}
-
-section#hero .text-hero p {
-    color: #616161;
-    margin-top: .7rem;
-}
-
-section#hero .text-hero div {
-    display: flex;
-    gap: .5rem;
-    margin-top: 1.65rem;
-}
-
-section#hero .text-hero div a {
-    background: #2A579A;
-    padding: .4rem 1rem;
-    color: #FFF;
-    text-decoration: none;
-}
-
-section#hero .bg-hero {
-    flex: 1;
-    display: flex;
-}
-
-section#hero .bg-hero img {
-    width: 100%;
-    align-self: stretch;
-    object-fit: cover;
-}
-
-@media screen and (max-width: 1000px) {
-    section#hero {
-        height: unset;
-        display: flex;
-        flex-direction: column-reverse;
-        margin-top: 11vh;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-        gap: 1.4rem;
-        padding-right: 1.5rem;
-    }
-    section#hero .text-hero {
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding-right: 1.5rem;
-    }
-    section#hero .text-hero h1 {
-        color: #2A579A;
-        font-weight: 600;
-        font-size: 2rem;
-        line-height: 2.7rem;
-    }
-    section#hero .text-hero p {
-        color: #616161;
-        margin-top: .7rem;
-    }
-    section#hero .text-hero div {
-        display: flex;
-        gap: .5rem;
-        margin-top: 1.65rem;
-    }
-    section#hero .text-hero div a {
-        background: #2A579A;
-        padding: .4rem 1rem;
-        color: #FFF;
-        text-decoration: none;
-    }
-    section#hero .bg-hero {
-        flex: 1;
-        display: flex;
-    }
-    section#hero .bg-hero img {
-        width: 100%;
-        align-self: stretch;
-        object-fit: cover;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    section#hero {
-        gap: 1rem;
-    }
-    section#hero .text-hero {
-        padding-right: 0;
-        margin-top: -.35rem;
-    }
-    section#hero .text-hero h1 {
-        font-size: 1.4rem;
-        line-height: 2rem;
-    }
-    section#hero .text-hero p {
-        margin-top: .6rem;
-        font-size: .9rem;
-    }
-    section#hero .text-hero div {
-        display: flex;
-        flex-direction: column;
-        gap: .5rem;
-        margin-top: 1.3rem;
-    }
-    section#hero .text-hero div a {
-        padding: .4rem .8rem;
-        font-size: .9rem;
-    }
+    height: 90vh;
 }
 
 footer#footer {
     margin-top: 1.5rem;
-    background: #2A579A;
-    padding-top: .9rem;
-    padding-bottom: .9rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     color: #FFF;
 }
 
 footer#footer .copyright {
     flex: 4;
     font-weight: 400;
-    font-size: 14px;
 }
 
 footer#footer ul.nav-links {
-    flex: 1.5;
     list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
 }
 
 footer#footer ul.nav-links li a {
     text-decoration: none;
     font-weight: 400;
-    font-size: 13px;
     color: #FFF;
 }
 
-@media screen and (max-width: 1000px) {
-    footer#footer {
-        margin-top: 1rem;
-        align-items: flex-start;
-        flex-direction: column;
-    }
-    footer#footer ul.nav-links {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    footer#footer .copyright {
-        font-size: .75rem;
-    }
-}
-
-#VissionMissionAboutPurposeSection {
+#AboutUs {
     margin-top: 2.75rem;
 }
 
-#VissionMissionAboutPurposeSection .vission-mission-about-purpose-wrapper {
+#AboutUs .vission-mission-about-purpose-wrapper {
     display: flex;
     gap: 8.6rem;
 }
 
 @media screen and (max-width: 1000px) {
-    #VissionMissionAboutPurposeSection .vission-mission-about-purpose-wrapper {
+    #AboutUs .vission-mission-about-purpose-wrapper {
         flex-direction: column-reverse;
         gap: 4.5rem;
     }
 }
 
 @media screen and (max-width: 768px) {
-    #VissionMissionAboutPurposeSection {
+    #AboutUs {
         margin-top: 1rem;
     }
-    #VissionMissionAboutPurposeSection .vission-mission-about-purpose-wrapper {
+    #AboutUs .vission-mission-about-purpose-wrapper {
         gap: 2rem;
     }
 }
 
-#VissionMissionAboutPurposeSection h2.title-vission-mission-purpose {
+#AboutUs h2.title-vission-mission-purpose {
     font-weight: 600;
     font-size: 1.9rem;
     color: #333;
@@ -385,14 +231,14 @@ footer#footer ul.nav-links li a {
 }
 
 @media screen and (max-width: 1000px) {
-    #VissionMissionAboutPurposeSection h2.title-vission-mission-purpose {
+    #AboutUs h2.title-vission-mission-purpose {
         font-size: 1.5rem;
         margin-bottom: 1.3rem;
     }
 }
 
 @media screen and (max-width: 768px) {
-    #VissionMissionAboutPurposeSection h2.title-vission-mission-purpose {
+    #AboutUs h2.title-vission-mission-purpose {
         font-size: 1.35rem;
         margin-bottom: 1rem;
     }
@@ -422,10 +268,10 @@ footer#footer ul.nav-links li a {
     padding-top: 1rem;
     padding-bottom: 1rem;
     margin-left: 1rem;
-    margin-top: .8rem;
-    display: flex;
-    flex-direction: column;
-    gap: 1.4rem;
+    /* margin-top: .8rem; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* gap: 1.4rem; */
 }
 
 #vission-mission .contain-wrapper div p {
@@ -466,6 +312,16 @@ footer#footer ul.nav-links li a {
     }
 }
 
+/** Services Section **/
+
+.card-services {
+    border: none !important;
+}
+
+.card-services .card-body {
+    border-radius: 10px;
+}
+
 
 /** About Purpose Media Section **/
 
@@ -484,7 +340,9 @@ section#benefit-section .benefit {
 }
 
 section#benefit-section .benefit img {
-    width: 50%;
+    width: 25%;
+    object-position: center;
+    object-fit: cover;
 }
 
 section#benefit-section .benefit h4 {
@@ -506,7 +364,7 @@ section#benefit-section .benefit p {
         align-items: center;
     }
     section#benefit-section .benefit img {
-        width: 50%;
+        width: 20%;
     }
     section#benefit-section .benefit p {
         margin-top: .75rem;
@@ -963,88 +821,6 @@ section#team .person-card .desc p {
     }
 }
 
-section#discover {
-    background: #23467C;
-    padding: 4rem;
-    display: flex;
-    align-items: center;
-    gap: 4rem;
-    margin-top: 4rem;
-}
-
-section#discover .text-discover {
-    color: #FFF;
-    flex: 2.75;
-}
-
-section#discover .text-discover h3 {
-    font-size: 1.9rem;
-}
-
-section#discover .text-discover p {
-    margin-top: 1rem;
-    display: flex;
-    flex-direction: column;
-    font-size: .95rem;
-    line-height: 1.3rem;
-}
-
-section#discover .button-wrap {
-    flex: 1;
-    text-align: right;
-}
-
-section#discover .button-wrap button {
-    background: #FFF;
-    border-radius: 5px;
-    padding: 1.3rem 1.35rem;
-    border: none;
-    color: #23467C;
-    font-weight: 600;
-    font-size: .9rem;
-}
-
-@media screen and (max-width: 1000px) {
-    section#discover {
-        padding: 2rem;
-        gap: 2rem;
-    }
-    section#discover .text-discover h3 {
-        font-size: 1.7rem;
-    }
-    section#discover .text-discover p {
-        margin-top: .8rem;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    section#discover {
-        padding: 1.5rem;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 2rem;
-        margin-top: 2rem;
-    }
-    section#discover .text-discover h3 {
-        font-size: 1.1rem;
-    }
-    section#discover .text-discover p {
-        margin-top: .5rem;
-        font-size: .8rem;
-        line-height: 1rem;
-    }
-    section#discover .button-wrap {
-        margin-top: -.8rem;
-    }
-    section#discover .button-wrap button {
-        border-radius: 5px;
-        padding: .6rem .8rem;
-        font-weight: 600;
-        font-size: .9rem;
-    }
-}
-
 section#event {
     padding-top: 3.5rem;
     padding-bottom: 3.5rem;
@@ -1238,4 +1014,35 @@ section#event .tab-contents .tab-content .card-enggagement .desc {
         font-size: 1.75rem;
         border: 2px solid #FFF;
     }
+}
+
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+}
+
+.swiper-pagination-bullets {
+    bottom: -40px !important;
+}
+
+.swiper-pagination-bullet {
+    width: 15px !important;
+    height: 15px !important;
+}
+
+.swiper-pagination-bullet-active {
+    background: #112368 !important;
 }
